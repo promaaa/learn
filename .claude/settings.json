@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Bash(pdftotext:*)",
+      "Bash(pdftoppm:*)",
+      "Bash(rsvg-convert:*)",
+      "Bash(uv run:*)"
+    ]
+  }
+}
