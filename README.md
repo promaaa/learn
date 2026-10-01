@@ -2,9 +2,9 @@
 
 [![video](assets/thumbnail.png)](https://www.youtube.com/watch?v=kzcI5F4tGiU)
 
-My AI learning system from this video: [How I Use AI to Learn Things](https://www.youtube.com/watch?v=kzcI5F4tGiU).
+Based on the AI learning system by [@amosblomqvist](https://github.com/amosblomqvist), shown in the video [How I Use AI to Learn Things](https://www.youtube.com/watch?v=kzcI5F4tGiU). It is built as a pi configuration: the teaching philosophy encoded in a skill, a few small extensions, and agent definitions.
 
-This is a personal system I built for myself, shared as-is. Built as a pi configuration: the teaching philosophy encoded in a skill, a few small extensions, and agent definitions.
+My changes: adapted the tutor to my Control & Automation course and added a Claude Code version of it.
 
 ## What's in it
 
