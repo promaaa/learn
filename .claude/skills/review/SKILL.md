@@ -5,7 +5,7 @@ description: Spaced retrieval and exam-style practice on topics already taught, 
 
 # Review
 
-Mastery means Marc can **pull an idea out of memory on a later day** and **use it on an exam problem** — not just follow it the day it was taught. This skill tests exactly that and feeds the results back into `progress.md`. It uses the `teach` skill's quiz-construction procedure, grounding rules and rendering rules; read those first.
+Mastery means Marc can **pull an idea out of memory on a later day** and **use it on an exam problem**, not just follow it the day it was taught. This skill tests exactly that and feeds the results back into `progress.md`. It uses the `teach` skill's quiz-construction procedure, grounding rules and rendering rules; read those first.
 
 ## 1. Pick what's due
 
@@ -15,7 +15,7 @@ Read `progress.md`. Choose 3–6 topics, in this priority:
 2. `taught` topics not reviewed for 3 or more days.
 3. `solid` topics not seen for 10 or more days.
 
-Mix chapters (interleaving: e.g. a rotation-composition question next to a DH one). Recognising *which* tool a problem needs is half the exam. If Marc names a topic or an exam, restrict to it. Only review topics that have been taught (`—` topics are for `teach`).
+Mix chapters (interleaving: e.g. a rotation-composition question next to a DH one). Recognising *which* tool a problem needs is half the exam. If Marc names a topic or an exam, restrict to it. Only review topics that have been taught (`new` topics are for `teach`).
 
 ## 2. Retrieval quiz
 
@@ -25,7 +25,7 @@ For each topic, 1–2 quiz questions (`AskUserQuestion`, batches of up to 4), mi
 - **Small computation**: something done in your head or on paper in a minute, e.g. the inverse of a given homogeneous transform.
 - **Trap**: the classic misconception for that topic (fixed vs current frame order, Rᵀ vs R, the DH parameter measured along zᵢ₋₁ vs xᵢ, q vs −q, quaternion product order).
 
-Grade each one (✓/✗, correct answer, explanation), and write the questions, answers and explanations to `lessons/review-YYYY-MM-DD.md`.
+Grade each one (✓/✗, correct answer, explanation), in the Obsidian log: create `lessons/review-YYYY-MM-DD.md` and link it with `md_log.py link` at the start (see the `teach` skill, "The Obsidian log"); questions and answers are mirrored automatically, and you write the grading with `md_log.py say --raw`.
 
 ## 3. One exam-style problem (at least one per review)
 

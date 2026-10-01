@@ -1,6 +1,6 @@
 ---
 name: figure-maker
-description: Draws ONE geometric figure for a lesson — coordinate frames, rotations, robot links and joints, DH axes, vectors, workspaces, plots — as hand-written SVG, renders it to PNG, looks at the result, iterates until it is correct, saves it into the course viz/ folder, and returns the filename.
+description: Draws ONE geometric figure for a lesson (coordinate frames, rotations, robot links and joints, DH axes, vectors, workspaces, plots) as hand-written SVG, renders it to PNG, looks at the result, iterates until it is correct, saves it into the course viz/ folder, and returns the filename.
 tools: Write, Edit, Read, Bash
 model: sonnet
 ---

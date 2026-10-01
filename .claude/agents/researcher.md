@@ -22,7 +22,7 @@ Your final message is the whole deliverable:
 2–3 sentences that answer the question directly.
 
 ## Findings
-1. **Finding** — explanation. [Source](url or slide page)
+1. **Finding**: explanation. [Source](url or slide page)
 
 ## Conventions
 The course's convention versus the others (omit this section if not relevant).
